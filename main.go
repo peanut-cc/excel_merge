@@ -28,5 +28,6 @@ func main() {
 	if err != nil {
 		return
 	}
+	os.RemoveAll(srcfilesAbsPath)
 	log.Println("success!!!")
 }
